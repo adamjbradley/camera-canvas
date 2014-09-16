@@ -13,7 +13,7 @@ window.addEventListener("load", function(){
                         
                         if (CocoonJS.Camera.getNumberOfCameras() > 0)
                         {
-                            var front_camera_index = 1;
+                            var front_camera_index = 0;
                             var camera_information = CocoonJS.Camera.getAllCamerasInfo();
                             console.log("Number of cameras found: "+camera_information.length);
                             camera_information.forEach(function(data,i){
